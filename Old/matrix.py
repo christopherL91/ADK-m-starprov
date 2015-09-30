@@ -16,7 +16,7 @@ if __name__ == '__main__':
 		[2,1,2,4]
 	]
 	num = 0
-	for row in range(1,len(matrix)):
+	for row in range(1,len(matrix)): #	O(n)
 		for (v, w) in pairwise(zip(matrix[row-1],matrix[row])):
 			square = list(chain.from_iterable([v,w]))
 			mean = sum(square)//len(square)
