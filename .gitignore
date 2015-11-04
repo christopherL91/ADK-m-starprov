@@ -1,2 +1,10 @@
 .DS_Store
-New
+first/*.fdb_latexmk
+first/*.aux
+first/*.dvi
+first/*.fls
+first/*.loa
+first/*.log
+first/*.out
+first/*.toc
+
